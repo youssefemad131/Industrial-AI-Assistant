@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>FactoryLens AI — Toshiba ELARABY</title>
+<style>
+:root{--bg:#F5F5F6;--panel:#fff;--tx:#161616;--mut:#6B6B73;--bd:#E4E4E7;--ac:#ED1B24;--ac2:#B8121A;--acs:#FDEBEC;--user:#1A1A1A;--usertx:#fff;
+--fact:#e6f6ea;--factb:#2f9e55;--hyp:#fff3dc;--hypb:#e39a1b;--miss:#EFF0F2;--missb:#6B7280;--rep:#F1F1F2;--repb:#161616;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box}html,body{height:100%;margin:0}
+body{background:#E9E9EB;color:var(--tx);font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.app{height:100%;max-width:860px;margin:auto;display:flex;flex-direction:column;background:var(--panel);border-left:1px solid var(--bd);border-right:1px solid var(--bd)}
+header{display:flex;align-items:center;gap:12px;padding:12px 16px;border-bottom:1px solid var(--bd);flex-wrap:wrap}
+.logo{width:38px;height:38px;border-radius:12px;background:var(--ac);display:grid;place-items:center}
+.ttl{flex:1;min-width:150px}.ttl b{display:block;font-size:17px;line-height:1.2}.ttl span{display:block;font-size:12.5px;color:var(--mut)}
+.seg{display:flex;background:var(--bg);border-radius:10px;padding:3px;border:1px solid var(--bd)}
+.seg button{border:0;background:transparent;color:var(--mut);padding:6px 12px;border-radius:8px;cursor:pointer;font:inherit;font-size:13px}
+.seg button.on{background:var(--panel);color:var(--ac);font-weight:600;box-shadow:0 1px 3px rgba(0,0,0,.12)}
+#chat{flex:1;overflow-y:auto;padding:18px 16px;display:flex;flex-direction:column;gap:14px;scroll-behavior:smooth}
+.row{display:flex;gap:10px;align-items:flex-start;max-width:100%;animation:in .25s ease}
+.row.u{justify-content:flex-end}
+@keyframes in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.av{flex:none;width:30px;height:30px;border-radius:50%;background:var(--acs);color:var(--ac);display:grid;place-items:center;font-size:12px;font-weight:700}
+.bub{max-width:min(620px,86%);padding:10px 14px;border-radius:16px;background:var(--bg);border:1px solid var(--bd)}
+.row.u .bub{background:var(--user);color:var(--usertx);border-color:var(--user);border-bottom-right-radius:4px}
+.row:not(.u) .bub{border-top-left-radius:4px}
+.bub p{margin:0 0 6px}.bub p:last-child{margin:0}
+.blk{border-radius:10px;padding:9px 12px;margin:8px 0;border:1px solid transparent}
+.blk h4{margin:0 0 2px;font-size:11.5px;letter-spacing:.06em;text-transform:uppercase}
+.blk p{margin:0}.blk small{display:block;margin-top:4px;color:var(--mut);font-size:12px}
+.fact{background:var(--fact);border-color:var(--factb)}.fact h4{color:var(--factb)}
+.hyp{background:var(--hyp);border-color:var(--hypb)}.hyp h4{color:var(--hypb)}
+.miss{background:var(--miss);border-color:var(--missb)}.miss h4{color:var(--missb)}
+.rep{background:var(--rep);border-color:var(--repb)}.rep h4{color:var(--repb)}
+.str{display:flex;gap:3px;align-items:center;margin-top:5px;font-size:12px;color:var(--mut)}
+.str i{width:18px;height:6px;border-radius:3px;background:var(--bd)}.str i.f{background:var(--hypb)}
+.note{font-size:12.5px;color:var(--mut);font-style:italic}
+.typing{display:flex;gap:4px;padding:4px 2px}.typing i{width:7px;height:7px;border-radius:50%;background:var(--mut);animation:b 1s infinite}
+.typing i:nth-child(2){animation-delay:.15s}.typing i:nth-child(3){animation-delay:.3s}
+@keyframes b{0%,60%,100%{opacity:.3;transform:none}30%{opacity:1;transform:translateY(-3px)}}
+#sug{display:flex;gap:8px;flex-wrap:wrap;padding:6px 16px 0}
+#sug button{border:1px solid var(--ac);background:var(--acs);color:var(--ac);padding:7px 13px;border-radius:18px;cursor:pointer;font:inherit;font-size:13.5px}
+#sug button:hover{background:var(--ac);color:#fff}
+form{display:flex;gap:8px;padding:10px 16px 8px}
+input{flex:1;min-width:0;border:1px solid var(--bd);background:var(--bg);color:var(--tx);border-radius:22px;padding:10px 16px;font:inherit;outline:none}
+input:focus{border-color:var(--ac)}
+form button{border:0;background:var(--ac);color:#fff;border-radius:50%;width:42px;height:42px;cursor:pointer;display:grid;place-items:center}
+.foot{text-align:center;font-size:11.5px;color:var(--mut);padding:0 16px 10px}
+</style></head><body>
+<div class="app">
+<header>
+<div class="logo"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><circle cx="11" cy="11" r="2.5"/><path d="M16.5 16.5L21 21"/></svg></div>
+<div class="ttl"><span style="color:var(--ac);font-weight:800;letter-spacing:.14em;font-size:11.5px">TOSHIBA ELARABY</span><b>FactoryLens AI</b><span>Evidence-based quality investigation assistant</span></div>
+<div class="seg" id="seg"><button data-m="A">Concept A</button><button data-m="B" class="on">Concept B</button></div>
+</header>
+<div id="chat"></div>
+<div id="sug"></div>
+<form id="f"><input id="in" placeholder="Ask about production or quality…" autocomplete="off"><button aria-label="Send"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13"/><path d="M22 2l-7 20-4-9-9-4z"/></svg></button></form>
+<div class="foot">Prototype · illustrative data only · not connected to any factory system</div>
+</div>
+<script>
+var chat=document.getElementById('chat'),sug=document.getElementById('sug'),inp=document.getElementById('in');
+var mode='B',pending=null,busy=false;
+var sleep=function(ms){return new Promise(function(r){setTimeout(r,ms)})};
+function row(cls,h){var r=document.createElement('div');r.className='row '+cls;
+ r.innerHTML=(cls=='u'?'':'<div class="av">FL</div>')+'<div class="bub">'+h+'</div>';chat.appendChild(r);chat.scrollTop=chat.scrollHeight;return r}
+function user(t){row('u',t.replace(/</g,'&lt;'))}
+async function bot(h){var t=row('b','<div class="typing"><i></i><i></i><i></i></div>');await sleep(650);t.querySelector('.bub').innerHTML=h;chat.scrollTop=chat.scrollHeight}
+function fact(t,s){return '<div class="blk fact"><h4>Observed fact</h4><p>'+t+'</p><small>Source: '+s+'</small></div>'}
+function hyp(t,n,s){var b='';for(var i=0;i<3;i++)b+='<i class="'+(i<n?'f':'')+'"></i>';
+ return '<div class="blk hyp"><h4>Hypothesis</h4><p>'+t+'</p><div class="str">'+b+' evidence: '+['','weak','moderate','strong'][n]+'</div><small>'+s+'</small></div>'}
+function miss(t){return '<div class="blk miss"><h4>Missing data</h4><p>'+t+'</p></div>'}
+function rep(t){return '<div class="blk rep"><h4>Reported by user</h4><p>'+t+'</p><small>Not treated as evidence until it is backed by a record.</small></div>'}
+function setSug(l){sug.innerHTML='';l.forEach(function(x){var b=document.createElement('button');b.textContent=x[0];b.onclick=function(){act(x[0],x[1])};sug.appendChild(b)})}
+async function act(label,fn){if(busy)return;busy=true;sug.innerHTML='';user(label);await fn();busy=false}
+var SRC='inspection sheets + defect log · weeks 41–42 · illustrative';
+function menu(){setSug([['Why did paint defects increase?',why],['What is the Shift 3 reject rate today?',rate],['The booth AC was acting up',remark]])}
+async function rate(){await bot('<p>That is a clear question, so no clarification is needed.</p>'+fact('Shift 3 reject rate today: <b>5.2%</b>.','shift reject counts · today 06:00 to now · illustrative'));menu()}
+async function remark(){
+ if(mode=='A'){await bot('<p>Noted. Concept A answers questions directly; ask me to analyze a defect trend.</p>');menu();return}
+ await bot('<p>Thanks, I will keep that separate from the records.</p>'+rep('Spray-booth AC was unstable.')+miss('No booth maintenance log is in the loaded data, so I cannot cite one.')+hyp('Temperature instability <b>may have contributed</b> to viscosity changes and runs.',1,'Based on your report only.')+'<p class="note">You choose the next step.</p>');
+ setSug([['Enter maintenance log',function(){return say('OK. Once a log is entered I will cite it with its date and re-rate the evidence.')}],['Run viscosity test',function(){return say('OK. Record the cup-viscosity result for the current batch and I will compare it to spec.')}]])}
+async function say(t){await bot('<p>'+t+'</p>');menu()}
+async function why(){
+ if(mode=='A'){await bot('<p>Analyzing inspection sheets, defect log and shift records…</p>'+findings());
+  setSug([['Break down by defect type',function(){return say('Runs/sags 58%, orange peel 27%, other 15% (illustrative).')}],['Compare Shift 3 vs Shift 1',function(){return say('Shift 3: 5.2% · Shift 1: 2.4% (illustrative). A difference alone does not prove a cause.')}]]);return}
+ pending='period';await bot('<p>This question is ambiguous, so one clarifying question: <b>which period should I compare?</b></p>');
+ setSug([['This week vs last week',period],['Last 30 days',function(){return say('Only the weekly comparison is loaded in this prototype. Please choose it.')}]])}
+function findings(){return fact('Paint defect rate rose from <b>2.1% to 3.6%</b>. 68% of the increase is on Shift 3, mainly runs/sags.',SRC)+
+ hyp('New paint batch <b>may have contributed</b>: it started Tuesday.',2,'Timing matches; no lab data.')+
+ hyp('Oven temperature drift on Shift 3 <b>may have contributed</b>: 6 of 21 readings above spec.',2,'Source: inspection sheet parameter readings · illustrative')+
+ miss('Humidity and paint viscosity are not recorded.')+'<p class="note">Timing correlation does not prove causation.</p>'}
+async function period(){pending=null;await bot(findings()+'<p>Which verification do you want next? <b>You choose.</b></p>');
+ setSug([['Check supplier batch',function(){return v(fact('New batch: <b>4.4%</b> defects vs 2.2% for the previous batch.','defect log by batch · weeks 41–42 · illustrative')+hyp('The batch is a stronger candidate, but viscosity tests are needed to confirm.',2,''))}],['Check machine maintenance',function(){return v(fact('Oven thermocouple last calibrated <b>11 weeks ago</b>.','maintenance schedule · as of this week · illustrative')+hyp('Drift is possible; a calibration check is needed before concluding.',1,''))}]])}
+async function v(h){await bot(h+'<p>Recommended: verify on the line, then re-run this comparison.</p>');menu()}
+function classify(t){t=t.toLowerCase();
+ if(pending&&/week|period|30/.test(t))return period;
+ if(/\bac\b|booth|temperature|humid/.test(t))return remark;
+ if(/rate|reject|today|shift/.test(t)&&!/why|increase/.test(t))return rate;
+ if(/why|defect|increase|paint|investigat/.test(t))return why;return null}
+document.getElementById('f').onsubmit=async function(e){e.preventDefault();var t=inp.value.trim();if(!t||busy)return;inp.value='';
+ var fn=classify(t);busy=true;sug.innerHTML='';user(t);
+ if(fn)await fn();else{await bot('<p>In this prototype I can help with paint defects, reject rates and booth conditions. Try one of the suggestions.</p>');menu()}busy=false};
+document.getElementById('seg').onclick=function(e){var m=e.target.dataset.m;if(!m||m==mode)return;mode=m;
+ [].forEach.call(this.children,function(b){b.classList.toggle('on',b.dataset.m==m)});start()};
+function start(){chat.innerHTML='';pending=null;busy=false;
+ row('b','<p>'+(mode=='B'?'<b>Concept B · Guided Investigation.</b> I clarify when needed, check records, and separate facts from hypotheses.':'<b>Concept A · Ask &amp; Analyze.</b> Ask a question and I analyze the data directly.')+'</p><p class="note">All data shown is illustrative.</p>');menu()}
+start();
+</script></body></html>
