@@ -1,0 +1,21 @@
+lot_id,supplier_code,material,delivery_date,inspection_status
+L-001,SUP-B,hardener,2026-09-21,passed
+L-002,SUP-C,thinner,2026-09-22,passed
+L-003,SUP-A,paint base,2026-09-24,passed
+L-004,SUP-B,hardener,2026-09-25,passed
+L-005,SUP-C,thinner,2026-09-27,passed
+L-006,SUP-A,paint base,2026-09-28,passed
+L-007,SUP-B,hardener,2026-09-29,passed
+L-008,SUP-C,thinner,2026-10-01,passed
+L-009,SUP-A,paint base,2026-10-02,conditional
+L-010,SUP-B,hardener,2026-10-04,passed
+L-011,SUP-C,thinner,2026-10-05,passed
+L-012,SUP-A,paint base,2026-10-06,passed
+L-013,SUP-B,hardener,2026-10-08,passed
+L-014,SUP-A,paint base,2026-10-08,passed
+L-015,SUP-A,paint base,2026-10-11,passed
+L-016,SUP-B,hardener,2026-10-12,passed
+L-017,SUP-C,thinner,2026-10-13,passed
+L-018,SUP-B,paint base,2026-10-24,not_inspected
+L-019,SUP-B,hardener,2026-10-16,passed
+L-020,SUP-C,thinner,2026-10-18,passed

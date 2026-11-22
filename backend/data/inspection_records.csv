@@ -1,0 +1,121 @@
+record_id,date,shift,machine_id,product,batch_id,defect_type,inspected_qty,defect_qty,supplier_lot
+INS-001,2026-10-18,1,P1,Stand fan 18in,B-1018-11,orange peel,86,3,L-014
+INS-002,2026-10-18,1,P1,Stand fan 18in,B-1018-12,paint run,68,4,L-014
+INS-003,2026-10-18,1,P2,Stand fan 18in,B-1018-13,none,89,0,L-014
+INS-004,2026-10-18,1,P2,Stand fan 18in,B-1018-14,paint run,78,1,L-014
+INS-005,2026-10-18,2,P2,Stand fan 18in,B-1018-21,uneven coat,86,3,L-014
+INS-006,2026-10-18,2,P1,Ceiling fan 56in,B-1018-22,scratch,69,1,L-014
+INS-007,2026-10-18,2,P1,Stand fan 18in,B-1018-23,paint run,93,2,L-014
+INS-008,2026-10-18,2,P2,Stand fan 18in,B-1018-24,orange peel,74,4,L-014
+INS-009,2026-10-18,3,P2,Stand fan 18in,B-1018-31,orange peel,91,1,L-014
+INS-010,2026-10-18,3,P1,Ceiling fan 56in,B-1018-32,none,61,0,L-014
+INS-011,2026-10-18,3,P2,Stand fan 18in,B-1018-33,uneven coat,97,5,L-014
+INS-012,2026-10-18,3,P1,Ceiling fan 56in,B-1018-34,orange peel,97,2,L-014
+INS-013,2026-10-19,1,P2,Ceiling fan 56in,B-1019-11,paint run,78,1,L-014
+INS-014,2026-10-19,1,P1,Ceiling fan 56in,B-1019-12,uneven coat,83,1,L-014
+INS-015,2026-10-19,1,P1,Stand fan 18in,B-1019-13,uneven coat,85,1,L-014
+INS-016,2026-10-19,1,P2,Stand fan 18in,B-1019-14,scratch,77,1,L-014
+INS-017,2026-10-19,2,P2,Ceiling fan 56in,B-1019-21,none,69,0,L-014
+INS-018,2026-10-19,2,P2,Stand fan 18in,B-1019-22,none,68,0,L-014
+INS-019,2026-10-19,2,P2,Stand fan 18in,B-1019-23,uneven coat,91,3,L-014
+INS-020,2026-10-19,2,P1,Stand fan 18in,B-1019-24,orange peel,82,2,L-014
+INS-021,2026-10-19,3,P1,Ceiling fan 56in,B-1019-31,paint run,70,2,L-014
+INS-022,2026-10-19,3,P2,Ceiling fan 56in,B-1019-32,uneven coat,95,3,L-014
+INS-023,2026-10-19,3,P2,Stand fan 18in,B-1019-33,uneven coat,83,2,L-014
+INS-024,2026-10-19,3,P2,Ceiling fan 56in,B-1019-34,paint run,84,1,L-014
+INS-025,2026-10-20,1,P2,Ceiling fan 56in,B-1020-11,orange peel,71,3,L-014
+INS-026,2026-10-20,1,P1,Ceiling fan 56in,B-1020-12,paint run,93,1,L-014
+INS-027,2026-10-20,1,P2,Ceiling fan 56in,B-1020-13,uneven coat,77,2,L-014
+INS-028,2026-10-20,1,P2,Stand fan 18in,B-1020-14,uneven coat,100,2,L-014
+INS-029,2026-10-20,2,P1,Stand fan 18in,B-1020-21,none,73,0,L-014
+INS-030,2026-10-20,2,P1,Ceiling fan 56in,B-1020-22,uneven coat,63,2,L-014
+INS-031,2026-10-20,2,P1,Stand fan 18in,B-1020-23,scratch,66,1,L-014
+INS-032,2026-10-20,2,P1,Ceiling fan 56in,B-1020-24,paint run,88,2,L-014
+INS-033,2026-10-20,3,P1,Ceiling fan 56in,B-1020-31,uneven coat,72,2,L-014
+INS-034,2026-10-20,3,P1,Stand fan 18in,B-1020-32,none,63,0,L-014
+INS-035,2026-10-20,3,P1,Stand fan 18in,B-1020-33,scratch,75,2,L-014
+INS-036,2026-10-20,3,P1,Ceiling fan 56in,B-1020-34,scratch,91,3,L-014
+INS-037,2026-10-21,1,P1,Stand fan 18in,B-1021-11,orange peel,92,1,L-014
+INS-038,2026-10-21,1,P1,Ceiling fan 56in,B-1021-12,scratch,78,1,L-014
+INS-039,2026-10-21,1,P2,Ceiling fan 56in,B-1021-13,orange peel,89,2,L-014
+INS-040,2026-10-21,1,P2,Ceiling fan 56in,B-1021-14,scratch,78,2,L-014
+INS-041,2026-10-21,2,P1,Stand fan 18in,B-1021-21,orange peel,87,2,L-014
+INS-042,2026-10-21,2,P1,Stand fan 18in,B-1021-22,none,63,0,L-014
+INS-043,2026-10-21,2,P2,Stand fan 18in,B-1021-23,none,77,0,L-014
+INS-044,2026-10-21,2,P1,Ceiling fan 56in,B-1021-24,none,67,0,L-014
+INS-045,2026-10-21,3,P1,Stand fan 18in,B-1021-31,scratch,64,1,L-014
+INS-046,2026-10-21,3,P1,Ceiling fan 56in,B-1021-32,orange peel,97,2,L-014
+INS-047,2026-10-21,3,P1,Stand fan 18in,B-1021-33,none,84,0,L-014
+INS-048,2026-10-21,3,P1,Stand fan 18in,B-1021-34,orange peel,77,3,L-014
+INS-049,2026-10-22,1,P1,Ceiling fan 56in,B-1022-11,orange peel,71,1,L-014
+INS-050,2026-10-22,1,P1,Stand fan 18in,B-1022-12,uneven coat,66,1,L-014
+INS-051,2026-10-22,1,P2,Ceiling fan 56in,B-1022-13,orange peel,99,2,L-014
+INS-052,2026-10-22,1,P2,Ceiling fan 56in,B-1022-14,paint run,71,3,L-014
+INS-053,2026-10-22,2,P1,Stand fan 18in,B-1022-21,paint run,82,2,L-014
+INS-054,2026-10-22,2,P1,Ceiling fan 56in,B-1022-22,uneven coat,87,1,L-014
+INS-055,2026-10-22,2,P1,Stand fan 18in,B-1022-23,uneven coat,89,3,L-014
+INS-056,2026-10-22,2,P1,Ceiling fan 56in,B-1022-24,scratch,85,1,L-014
+INS-057,2026-10-22,3,P1,Ceiling fan 56in,B-1022-31,uneven coat,65,1,L-014
+INS-058,2026-10-22,3,P1,Stand fan 18in,B-1022-32,scratch,78,1,L-014
+INS-059,2026-10-22,3,P1,Stand fan 18in,B-1022-33,orange peel,86,2,L-014
+INS-060,2026-10-22,3,P2,Ceiling fan 56in,B-1022-34,,100,1,L-014
+INS-061,2026-10-25,1,P2,Ceiling fan 56in,B-1025-11,orange peel,72,6,L-018
+INS-062,2026-10-25,1,P1,Stand fan 18in,B-1025-12,uneven coat,63,3,L-014
+INS-063,2026-10-25,1,P1,Stand fan 18in,B-1025-13,uneven coat,64,1,L-014
+INS-064,2026-10-25,1,P1,Stand fan 18in,B-1025-14,uneven coat,73,1,L-014
+INS-065,2026-10-25,2,P2,Ceiling fan 56in,B-1025-21,uneven coat,90,1,L-018
+INS-066,2026-10-25,2,P1,Stand fan 18in,B-1025-22,paint run,98,1,L-014
+INS-067,2026-10-25,2,P1,Stand fan 18in,B-1025-23,paint run,96,1,L-014
+INS-068,2026-10-25,2,P1,Stand fan 18in,B-1025-24,scratch,89,1,L-014
+INS-069,2026-10-25,3,P2,Ceiling fan 56in,B-1025-31,uneven coat,72,7,L-018
+INS-070,2026-10-25,3,P2,Ceiling fan 56in,B-1025-32,paint run,80,4,L-018
+INS-071,2026-10-25,3,P2,Ceiling fan 56in,B-1025-33,orange peel,69,3,L-018
+INS-072,2026-10-25,3,P1,Stand fan 18in,B-1025-34,orange peel,64,2,L-014
+INS-073,2026-10-26,1,P2,Stand fan 18in,B-1026-11,paint run,77,3,L-018
+INS-074,2026-10-26,1,P1,Stand fan 18in,B-1026-12,none,63,0,L-014
+INS-075,2026-10-26,1,P2,Ceiling fan 56in,B-1026-13,paint run,65,4,L-018
+INS-076,2026-10-26,1,P1,Stand fan 18in,B-1026-14,uneven coat,72,2,L-014
+INS-077,2026-10-26,2,P2,Ceiling fan 56in,B-1026-21,scratch,99,2,L-018
+INS-078,2026-10-26,2,P2,Ceiling fan 56in,B-1026-22,paint run,61,2,L-018
+INS-079,2026-10-26,2,P2,Stand fan 18in,B-1026-23,none,64,0,L-018
+INS-080,2026-10-26,2,P2,Ceiling fan 56in,B-1026-24,scratch,60,2,L-018
+INS-081,2026-10-26,3,P2,Ceiling fan 56in,B-1026-31,orange peel,98,10,L-018
+INS-082,2026-10-26,3,P2,Stand fan 18in,B-1026-32,paint run,92,2,L-018
+INS-083,2026-10-26,3,P2,Ceiling fan 56in,B-1026-33,paint run,94,9,L-018
+INS-084,2026-10-26,3,P1,Ceiling fan 56in,B-1026-34,uneven coat,81,3,L-014
+INS-085,2026-10-27,1,P2,Stand fan 18in,B-1027-11,orange peel,71,1,L-018
+INS-086,2026-10-27,1,P2,Ceiling fan 56in,B-1027-12,uneven coat,64,3,L-018
+INS-087,2026-10-27,1,P1,Ceiling fan 56in,B-1027-13,paint run,81,1,L-014
+INS-088,2026-10-27,1,P2,Stand fan 18in,B-1027-14,scratch,94,1,L-018
+INS-089,2026-10-27,2,P2,Ceiling fan 56in,B-1027-21,uneven coat,79,1,L-018
+INS-090,2026-10-27,2,P1,Stand fan 18in,B-1027-22,,73,1,L-014
+INS-091,2026-10-27,2,P2,Stand fan 18in,B-1027-23,paint run,84,1,L-018
+INS-092,2026-10-27,2,P2,Ceiling fan 56in,B-1027-24,none,78,0,L-018
+INS-093,2026-10-27,3,P2,Ceiling fan 56in,B-1027-31,paint run,89,4,L-018
+INS-094,2026-10-27,3,P2,Ceiling fan 56in,B-1027-32,orange peel,77,7,L-018
+INS-095,2026-10-27,3,P2,Stand fan 18in,B-1027-33,,93,7,L-018
+INS-096,2026-10-27,3,P1,Ceiling fan 56in,B-1027-34,none,92,0,
+INS-097,2026-10-28,1,P2,Ceiling fan 56in,B-1028-11,paint run,67,1,L-018
+INS-098,2026-10-28,1,P1,Stand fan 18in,B-1028-12,orange peel,83,2,L-014
+INS-099,2026-10-28,1,P1,Ceiling fan 56in,B-1028-13,scratch,75,2,L-014
+INS-100,2026-10-28,1,P1,Ceiling fan 56in,B-1028-14,none,94,0,L-014
+INS-101,2026-10-28,2,P1,Stand fan 18in,B-1028-21,paint run,88,4,L-014
+INS-102,2026-10-28,2,P2,Stand fan 18in,B-1028-22,scratch,69,3,L-018
+INS-103,2026-10-28,2,P2,Stand fan 18in,B-1028-23,uneven coat,85,3,L-018
+INS-104,2026-10-28,2,P2,Ceiling fan 56in,B-1028-24,uneven coat,93,2,
+INS-105,2026-10-28,3,P2,Stand fan 18in,B-1028-31,orange peel,95,7,L-018
+INS-106,2026-10-28,3,P2,Stand fan 18in,B-1028-32,paint run,86,5,L-018
+INS-107,2026-10-28,3,P2,Ceiling fan 56in,B-1028-33,paint run,79,5,L-018
+INS-108,2026-10-28,3,P1,Ceiling fan 56in,B-1028-34,orange peel,75,2,L-014
+INS-109,2026-10-29,1,P1,Ceiling fan 56in,B-1029-11,uneven coat,67,1,L-014
+INS-110,2026-10-29,1,P2,Stand fan 18in,B-1029-12,scratch,87,2,L-018
+INS-111,2026-10-29,1,P2,Ceiling fan 56in,B-1029-13,uneven coat,78,4,L-018
+INS-112,2026-10-29,1,P1,Stand fan 18in,B-1029-14,scratch,68,2,L-014
+INS-113,2026-10-29,2,P2,Stand fan 18in,B-1029-21,orange peel,62,2,L-018
+INS-114,2026-10-29,2,P1,Ceiling fan 56in,B-1029-22,uneven coat,84,4,L-014
+INS-115,2026-10-29,2,P2,Ceiling fan 56in,B-1029-23,uneven coat,99,1,L-018
+INS-116,2026-10-29,2,P2,Stand fan 18in,B-1029-24,paint run,83,5,L-018
+INS-117,2026-10-29,3,P2,Stand fan 18in,B-1029-31,uneven coat,65,9,L-018
+INS-118,2026-10-29,3,P2,Ceiling fan 56in,B-1029-32,orange peel,84,8,L-018
+INS-119,2026-10-29,3,P2,Stand fan 18in,B-1029-33,orange peel,98,6,L-018
+INS-120,2026-10-29,3,P1,Ceiling fan 56in,B-1029-34,paint run,63,2,L-014

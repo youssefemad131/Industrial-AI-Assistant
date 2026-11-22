@@ -1,0 +1,26 @@
+event_id,date,machine_id,shift,event_type,status,notes
+MNT-001,2026-10-18,P1,1.0,lubrication,completed,Routine conveyor lubrication.
+MNT-002,2026-10-18,P2,2.0,belt_check,completed,"Belt tension checked, within range."
+MNT-003,2026-10-19,P1,1.0,filter_change,completed,Air filter changed.
+MNT-004,2026-10-19,P2,3.0,lubrication,completed,Routine conveyor lubrication.
+MNT-005,2026-10-20,P1,2.0,compressor_check,completed,Compressor pressure normal.
+MNT-006,2026-10-20,P2,1.0,filter_change,completed,Air filter changed.
+MNT-007,2026-10-21,P1,1.0,nozzle_cleaning,completed,Spray gun nozzle cleaned.
+MNT-008,2026-10-21,P2,2.0,belt_check,completed,"Belt tension checked, within range."
+MNT-009,2026-10-22,P1,3.0,lubrication,completed,Routine conveyor lubrication.
+MNT-010,2026-10-22,P2,1.0,compressor_check,completed,Compressor pressure normal.
+MNT-011,2026-10-22,P1,2.0,conveyor_jam,completed,"Short jam cleared, 10 min stop."
+MNT-012,2026-10-23,P2,,calibration_due,open,Oven temperature sensor calibration overdue by 12 days.
+MNT-013,2026-10-23,P1,1.0,filter_change,completed,Air filter changed.
+MNT-014,2026-10-24,P1,2.0,belt_check,completed,"Belt tension checked, within range."
+MNT-015,2026-10-25,P1,1.0,lubrication,completed,Routine conveyor lubrication.
+MNT-016,2026-10-25,P2,2.0,compressor_check,completed,Compressor pressure normal.
+MNT-017,2026-10-26,P2,3.0,temperature_note,noted,Operator note: oven temperature reading about 8 C above setpoint.
+MNT-018,2026-10-26,P1,1.0,nozzle_cleaning,completed,Spray gun nozzle cleaned.
+MNT-019,2026-10-27,P2,2.0,nozzle_replaced,completed,Spray gun nozzle replaced.
+MNT-020,2026-10-27,P1,3.0,filter_change,completed,Air filter changed.
+MNT-021,2026-10-28,P2,1.0,belt_check,completed,"Belt tension checked, within range."
+MNT-022,2026-10-28,P1,2.0,lubrication,completed,Routine conveyor lubrication.
+MNT-023,2026-10-29,P2,3.0,conveyor_jam,completed,"Jam cleared, 25 min stop."
+MNT-024,2026-10-29,P1,1.0,compressor_check,completed,Compressor pressure normal.
+MNT-025,2026-10-29,P2,2.0,lubrication,completed,Routine conveyor lubrication.

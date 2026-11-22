@@ -1,0 +1,6 @@
+pandas>=2.0
+fastapi>=0.110
+uvicorn>=0.29
+pydantic>=2.0
+openpyxl>=3.1          # only for the test-set spreadsheet scripts
+anthropic>=0.40        # only needed if USE_LLM=1
