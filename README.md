@@ -1,5 +1,8 @@
 # FactoryLens AI
 
+Team Names: [Raghda Badran Hassan, Shahd Amar Shedid, Nada Mahmoud Ahmed, Abdelrahman
+Magdy Amin, Youssef Emad Samuel ]
+
 Guided quality-investigation assistant for factory QC engineers (HCAI course project, AI track).
 Principle tested: **Explainability**. **All data is synthetic** (no real factory data).
 
