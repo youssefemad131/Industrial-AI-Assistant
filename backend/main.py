@@ -1,4 +1,4 @@
-"""FastAPI backend.  Run from the repo root:  uvicorn backend.main:app --reload"""
+# """FastAPI backend.  Run from the repo root:  uvicorn backend.main:app --reload"""
 from fastapi import FastAPI
 from pydantic import BaseModel
 from .engine import FactoryLens, ERROR_MSG
