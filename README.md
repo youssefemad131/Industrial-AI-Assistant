@@ -1,11 +1,24 @@
-# FactoryLens AI
+## Project structure
 
-Guided quality-investigation assistant for factory QC engineers (HCAI course project, AI track).
-Principle tested: **Explainability**. **All data is synthetic** (no real factory data).
+```
+Industrial-AI-Assistant/
+├── backend/        # engine, FastAPI API, CLI, synthetic data
+├── tests/          # test runner + test set builder
+├── test_set/       # 32 test prompts (xlsx)
+├── Week1+2/        # course deliverables
+├── Week 3+4/       # course deliverables
+├── Week5/          # flow + architecture deliverables
+├── requirements.txt
+└── README.md
+```
 
-Every answer has three labelled blocks: **Observed fact / Hypothesis / Missing data**, plus source, time range and a next check.
-The engineer decides; the bot never confirms a root cause, never approves a production decision, never analyses individual workers.
+## Course deliverables
 
+| Week | Folder |
+| ---- | ------ |
+| 1-2 | [Week1+2](Week1%2B2) |
+| 3-4 | [Week 3+4](Week%203%2B4) |
+| 5 | [Week5](Week5) |
 ## How it works (matches the Week 5 flow)
 | Part | File | Job |
 |---|---|---|
